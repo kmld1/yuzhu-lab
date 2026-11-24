@@ -1,0 +1,14 @@
+# Versions used by the internal Windows validation environment.
+# These are evidence, not a universal compatibility guarantee.
+torch==2.10.0
+transformers==5.17.0
+peft==0.21.2
+fastapi==0.163.1
+uvicorn==0.54.0
+starlette==1.10.0
+httpx==0.28.1
+pydantic==2.14.1
+numpy==2.5.2
+sentence-transformers==6.1.0
+faiss-cpu==1.15.1
+bm25s==0.3.13

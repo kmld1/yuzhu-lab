@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yuzhu-lab"
+version = "1.0.0"
+description = "Local small-model engineering runtime and agent harness with source-isolated hybrid RAG"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [{ name = "YUZHU LAB contributors" }]
+keywords = ["llm", "rag", "agent", "harness", "mcp", "local-model"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: Apache Software License",
+  "Operating System :: Microsoft :: Windows",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+  "numpy>=1.26",
+  "torch>=2.0",
+  "transformers>=4.40",
+  "peft>=0.10",
+  "fastapi>=0.110",
+  "uvicorn>=0.27",
+  "httpx>=0.27",
+  "pydantic>=2.6",
+  "sentence-transformers>=3.0",
+  "faiss-cpu>=1.8",
+  "bm25s>=0.2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+include = ["yuzhu_lab*"]
+
+[tool.setuptools]
+include-package-data = true

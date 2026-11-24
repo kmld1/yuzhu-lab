@@ -1,0 +1,1 @@
+"""MiniCPM5-2B runtime service."""

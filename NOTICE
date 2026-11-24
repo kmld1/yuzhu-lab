@@ -1,0 +1,14 @@
+YUZHU LAB
+Copyright 2026 kmld
+
+YUZHU LAB v1.0.0 source-only public release.
+
+This distribution contains original source code for the YUZHU LAB project.
+
+The Apache License, Version 2.0 applies only to the original source code in
+this distribution. It does not apply to model weights, LoRA adapters, training
+data, evaluation data, or third-party software, none of which are included in
+this distribution.
+
+Third-party dependencies are installed separately by the user and remain
+governed by their own licenses. See THIRD_PARTY_NOTICES.md.

@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.zip binary
+yuzhu_lab/harness/agent/tools/windows_job.py -text !eol

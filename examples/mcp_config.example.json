@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "yuzhu": {
+      "type": "stdio",
+      "command": "<PYTHON_EXE>",
+      "args": [
+        "-m",
+        "yuzhu_lab.harness.mcp_server",
+        "--workspace",
+        "<EXPORT_DIR>",
+        "--project-id",
+        "local-project",
+        "--runtime-url",
+        "http://127.0.0.1:8802",
+        "--hindsight-url",
+        "http://127.0.0.1:8890",
+        "--state-dir",
+        "<EXPORT_DIR>/.yuzhu/mcp_state"
+      ],
+      "env": {
+        "PYTHONPATH": "<EXPORT_DIR>",
+        "PYTHONUTF8": "1",
+        "PYTHONIOENCODING": "utf-8"
+      }
+    }
+  }
+}
